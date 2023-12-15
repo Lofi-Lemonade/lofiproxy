@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+@import url('/assets/fonts/fa.css');
+
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'ghoust';
+    src: url('ghoust.otf') format('woff'),
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: #FFF;
+    font-family: Roboto;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+
+.wrapper {
+    width: 100%;
+    padding: 50px;
+    position: absolute;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: inline;
+    line-height: 100px;
+    height: 110px;
+    margin: 5px 0px;
+    font-family: 'ghoust';
+    font-size: 150%;
+    padding: 0px 25px;
+    background: #000000;
+    color: #8400ff;
+    border: solid 3px #8400ff;
+    border-radius: 15px;
+}
+
+
+header #intro {
+    font-size: 75px;
+    height: 50px;
+    display: inline
+}
+
+
+header #github i {
+    margin: 0px 4px; 
+}
+
+.container {
+    width: 900px;
+    background: black;
+    padding: 25px;
+    margin: 5px 0px;
+    text-align: left;
+    display: block;
+    border: solid 3px #8400ff;
+    border-radius: 15px;
+}
+
+.form input {
+    width: calc(100% - 64px);
+    height: 50px;
+    left: 0;
+    color: #ffffff;
+    padding: 0px 5px;
+    background: rgb(0, 0, 0);
+    font-size: 25px;
+    border-radius: 15px;
+    font-family: "ghoust";
+    border: solid 3px #8400ff;
+}
+
+.rounded-iframe {
+    border-radius: 20px;
+    border: 2px solid purple;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+.form input::placeholder {
+    color: #8400ff;
+    font-family: "ghoust";
+}
+
+.form button {
+    width: 60px;
+    height: 50px;
+    color: #8400ff;
+    padding: 0px 5px;
+    font-family: "ghoust";
+    font-size: 25px;
+    background: none;
+    border-radius: 15px;
+    border: solid 3px #8400ff;
+}
